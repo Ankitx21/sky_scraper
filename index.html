@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="search-bar">
+            <button>☰</button>
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="dashboard">
+        <div class="blue-background">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-title">Scraped Websites</div>
+                    <div class="number">18</div>
+                    <div class="completed">2 Completed</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Active Websites</div>
+                    <div class="number">132</div>
+                    <div class="completed">28 Completed</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Errors</div>
+                    <div class="number">12</div>
+                    <div class="completed">1 Solved</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Productivity</div>
+                    <div class="number">76%</div>
+                    <div class="completed">5% Completed</div>
+                </div>
+            </div>
+        </div>
+        <div class="active-projects">
+            <div class="projects-header">
+                <h2>Scraped Websites</h2>
+                <button class="add-website">Add Website</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Website Name</th>
+                        <th>Status</th>
+                        <th>Last Scraped</th>
+                        <th>Times Scraped</th>
+                        <th>Error</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Example Website 1</td>
+                        <td>Active</td>
+                        <td>2024-07-04</td>
+                        <td>10</td>
+                        <td>None</td>
+                        <td class="action-buttons">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Example Website 2</td>
+                        <td>Inactive</td>
+                        <td>2024-07-03</td>
+                        <td>5</td>
+                        <td>Timeout Error</td>
+                        <td class="action-buttons">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Example Website 3</td>
+                        <td>Active</td>
+                        <td>2024-07-02</td>
+                        <td>20</td>
+                        <td>None</td>
+                        <td class="action-buttons">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
